@@ -15,7 +15,6 @@ using System.Windows.Shapes;
 
 namespace Работа_в_Git
 {
-    //#FF000000
     public partial class MainWindow : Window
     {
         public MainWindow()
