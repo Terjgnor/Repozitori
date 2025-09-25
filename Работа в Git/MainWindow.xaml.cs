@@ -31,8 +31,17 @@ namespace Работа_в_Git
             }
             else
             {
-                // тест
-                // Тест функции веток Branches
+                text.Foreground = Brushes.Red;
+                text.Text = "Поле пустое!";
+            }
+        }
+
+        private void text_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (text.Foreground == Brushes.Red)
+            {
+                text.Foreground = Brushes.Black;
+                text.Text = "";
             }
         }
     }
